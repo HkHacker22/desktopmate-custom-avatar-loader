@@ -1,5 +1,7 @@
 # Custom Avatar Loader Mod for Desktop Mate (Sound Edition)
-⚠ This is a fork of the original project by [YusufOzmen01](https://github.com/YusufOzmen01).(archived)
+⚠ The original repository by [YusufOzmen01](https://github.com/YusufOzmen01) has been archived.
+This fork continues development and introduces new features,
+including an animation-based reactive sound system.
 ## 🔊 Sound Edition – Animation-Based Reactive Audio (Maintained Fork)
 
 Maintained Fork
@@ -101,5 +103,3 @@ This mod lets you use any .VRM file model you want inside of Desktop Mate!
 # License
 
 Check the [LICENSE.md](LICENSE.md) file for details.
--    The original repository has been archived.
--    This fork continues development and adds new features.
