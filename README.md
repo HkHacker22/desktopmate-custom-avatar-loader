@@ -1,3 +1,64 @@
+# Custom Avatar Loader Mod for Desktop Mate (Sound Edition)
+⚠ This is a fork of the original project by [YusufOzmen01](https://github.com/YusufOzmen01).
+## 🔊 Sound Edition – Animation-Based Reactive Audio
+
+
+This version adds an animation-based reactive sound system.
+This fork adds a reactive sound system that plays audio based on specific animation events in Desktop Mate.
+
+When supported animations are triggered (click, lift, rub, peek, etc.), corresponding sound effects are played automatically.
+
+---
+
+## 🎯 Supported Animation Events
+
+| Animation | Event Description | Sound Triggered |
+|------------|------------------|----------------|
+| **E1** | Click (Stand) | `anime-ahh.wav` |
+| **E2** | Click (Sit – Hands on Mouth) | `yamete-kudasai.wav` |
+| **F1** | Going Out | `bye-bye.wav` |
+| **F2** | Coming In | `tuturu_1.wav` |
+| **C1** | Back Lifting | `oh-my-god.wav` |
+| **C2** | Hand Lifting | `onich.wav` |
+| **G2_R** | Side Peek (Right) | `girl-uwu.wav` |
+| **G2_L** | Side Peek (Left) | `nya.wav` |
+| **D1** | Rubbing (Standing Love) | `uwu.wav` |
+| **D2** | Rubbing (Sitting Love) | `yamete-kudasai.wav` |
+
+---
+
+## 📦 Installation (Sound Edition)
+
+1. Extract the release ZIP.
+2. Copy the `Mods` folder into your: Desktop Mate/
+
+## 🔊 Audio Requirements
+
+All sound files must be:
+
+- WAV format  
+- 44100 Hz  
+- 16-bit  
+- Mono  
+
+Other formats may cause distortion or playback artifacts.
+
+---
+
+## ⚙ Technical Notes
+
+- Uses Animator state detection to trigger audio.
+- Uses `AudioSource.PlayOneShot()` for stable playback.
+- End-of-clip trimming is applied to prevent popping artifacts.
+- Idle animations (A/B states) do not trigger sound.
+
+---
+
+## 🛠 Customization
+
+To modify animation-to-sound mapping, edit: TouchSoundWatcher.cs
+
+
 # Custom Avatar Loader Mod for Desktop Mate
 
 #### [Русский](https://github.com/YusufOzmen01/desktopmate-custom-avatar-loader/blob/main/README_RU.md) / [日本語](https://github.com/YusufOzmen01/desktopmate-custom-avatar-loader/blob/main/README_JP.md) / [简体中文](https://github.com/yuhan2680/desktopmate-custom-avatar-loader/blob/main/README_ZH.md) / [Türkçe](https://github.com/YusufOzmen01/desktopmate-custom-avatar-loader/blob/main/README_TR.md) / [Vietnamese](https://github.com/YusufOzmen01/desktopmate-custom-avatar-loader/blob/main/README_VN.md) / [한국어](https://github.com/YusufOzmen01/desktopmate-custom-avatar-loader/blob/main/README_KR.md) / [Français](https://github.com/YusufOzmen01/desktopmate-custom-avatar-loader/blob/main/README_FR.md)
