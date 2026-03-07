@@ -53,7 +53,8 @@ Other formats may cause distortion or playback artifacts.
 - Uses `AudioSource.PlayOneShot()` for stable playback.
 - End-of-clip trimming is applied to prevent popping artifacts.
 - Idle animations (A/B states) do not trigger sound.
-
+- Works best with Melonloader 0.6.6 and Desktopmate downgraded(see https://github.com/YusufOzmen01/desktopmate-custom-avatar-loader/pull/100/changes/9902a6a21949e8ec28fed91093968de9feccc3ad)
+- use --melonloader.hideconsole in steam/desktopmate/properties/target field to hide console
 ---
 
 ## 🛠 Customization
